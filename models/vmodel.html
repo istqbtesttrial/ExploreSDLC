@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modèle en V - ExploreSDLC</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>📌 Modèle en V (V-Model)</h1>
+</header>
+
+<main class="container">
+
+    <section>
+        <h2>🔍 Description du modèle</h2>
+        <p>
+            Le modèle en V est une évolution du modèle en cascade,
+            qui met en relation explicite les phases de développement avec les phases correspondantes de tests.
+            Cela permet une meilleure détection précoce des erreurs.
+        </p>
+    </section>
+
+    <section>
+        <h2>🖼️ Schéma illustratif</h2>
+        <img src="../assets/images/vmodel.png" alt="Schéma Modèle en V" style="width:80%;max-width:600px;">
+    </section>
+
+    <section>
+        <h2>⚙️ Les phases du modèle</h2>
+
+        <h3>📌 Côté développement</h3>
+        <ol>
+            <li>Exigences (spécifications fonctionnelles)</li>
+            <li>Conception du système</li>
+            <li>Conception détaillée (architecture technique)</li>
+            <li>Codage (implémentation)</li>
+        </ol>
+
+        <h3>📌 Côté test</h3>
+        <ol>
+            <li>Tests d'acceptation (liés aux exigences)</li>
+            <li>Tests système (liés à la conception du système)</li>
+            <li>Tests d'intégration (liés à la conception détaillée)</li>
+            <li>Tests unitaires (liés au codage)</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>✅ Avantages</h2>
+        <ul>
+            <li>Association claire entre les phases de développement et de tests</li>
+            <li>Détection précoce des défauts et des risques</li>
+            <li>Excellente visibilité et contrôle sur l’avancement</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>❌ Inconvénients</h2>
+        <ul>
+            <li>Flexibilité réduite face aux changements tardifs</li>
+            <li>Nécessite une définition très précise des exigences dès le début</li>
+            <li>Peu adapté aux projets agiles ou aux projets aux exigences incertaines</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📋 Cas d’utilisation typiques</h2>
+        <ul>
+            <li>Systèmes critiques (aéronautique, médical, ferroviaire)</li>
+            <li>Projets réglementés nécessitant une traçabilité précise</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🧪 Rôle des tests dans ce modèle</h2>
+        <p>
+            Les tests interviennent tout au long du cycle de vie logiciel, dès les premières phases de développement,
+            garantissant une meilleure qualité finale du logiciel grâce à une validation continue.
+        </p>
+        <ul>
+            <li>Tests d’acceptation</li>
+            <li>Tests système</li>
+            <li>Tests d’intégration</li>
+            <li>Tests unitaires</li>
+        </ul>
+    </section>
+
+    <a href="../index.html" class="btn">⬅️ Retour à l'accueil</a>
+
+</main>
+
+<footer>
+    <p>&copy; 2025, Belhaj Ouajdi | ISTQB Training</p>
+</footer>
+
+</body>
+</html>
